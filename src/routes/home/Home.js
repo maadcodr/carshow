@@ -10,22 +10,16 @@
 import React, { PropTypes } from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Home.scss';
+import Card from '../../components/Card';
 
 function Home({ categories }) {
   return (
     <div>
-      <h1 className={s.title}>Categories</h1>
-      <ul className={s.categories}>
-        {categories.map((item, index) => (
-          <li key={index} className={s.category}>
-            <a href="" className={s.categoryTitle}>{item.title}</a>
-              <span
-                className={s.categoryDesc}
-                dangerouslySetInnerHTML={{ __html: item.description }}
-              />
-          </li>
-        ))}
-      </ul>
+      {categories.map((item, index) => (
+        <div key={index}>
+          <Card category={item}/>
+        </div>
+      ))}
     </div>
   );
 }

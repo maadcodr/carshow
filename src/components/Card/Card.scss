@@ -7,6 +7,15 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 
-@import '../../components/variables.scss';
+@import '../variables.scss';
 
+$brand-color: #61dafb;
+
+.root {
+  color: #fff;
+}
+
+.container {
+
+}
 

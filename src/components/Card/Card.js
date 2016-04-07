@@ -9,19 +9,17 @@
 
 import React from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
-import s from './Header.scss';
+import s from './Card.scss';
 
-function Header() {
+function Card({ category }) {
   return (
     <div className={s.root}>
       <div className={s.container}>
-        <div className={s.headerText}>
-          <img src={require('./acsclogo.svg')} width="50" height="50" alt="AAA" />
-          <span>Employee Car Show</span>
-        </div>
+        <div className={s.categoryTitle}>{category.title}</div>
+        <div className={s.categoryDesc} dangerouslySetInnerHTML={{ __html: category.description }}></div>
       </div>
     </div>
   );
 }
 
-export default withStyles(Header, s);
+export default withStyles(Card, s);
