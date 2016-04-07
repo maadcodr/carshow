@@ -1,72 +1,72 @@
-{ 
-    "_id" : ObjectId("5705842e7b71b22718e9b400"), 
-    "name" : "BEST INTERIOR", 
-    "description" : "Looks matter, but it’s what’s on the inside that really counts for this category. Upholstery, lining, dashboard, wood trim, chrome—it should all look spotless, reserved only for company.  All vehicles are eligible.", 
-    "cat_id" : "0"
+{
+  "_id" : ObjectId("5705842e7b71b22718e9b400"),
+  "description" : "Looks matter, but it’s what’s on the inside that really counts for this category. Upholstery, lining, dashboard, wood trim, chrome—it should all look spotless, reserved only for company.  All vehicles are eligible.",
+  "cat_id" : NumberInt(0),
+  "title" : "BEST INTERIOR"
 }
-{ 
-    "_id" : ObjectId("5705842e7b71b22718e9b401"), 
-    "name" : "BEST PAINT", 
-    "description" : "Paint, of course, is a substance composed of solid coloring matter suspended in a liquid medium and applied as a protective or decorative coating. Michelangelo and a monkey with a paint brush could share the same bucket of paint but come up with different results—it’s how the paint is used that really makes the difference. All painted vehicles are eligible.", 
-    "cat_id" : "1"
+{
+  "_id" : ObjectId("5705842e7b71b22718e9b401"),
+  "description" : "Paint, of course, is a substance composed of solid coloring matter suspended in a liquid medium and applied as a protective or decorative coating. Michelangelo and a monkey with a paint brush could share the same bucket of paint but come up with different results—it’s how the paint is used that really makes the difference. All painted vehicles are eligible.",
+  "cat_id" : NumberInt(1),
+  "title" : "BEST PAINT"
 }
-{ 
-    "_id" : ObjectId("5705842e7b71b22718e9b402"), 
-    "name" : "BEST MUSCLE CAR", 
-    "description" : "What if you take a car and inject it with steroids? You get a muscle car. Bigger, badder, faster, these are American football players to European “football” players.  Open only to American cars built between 1964-1972.", 
-    "cat_id" : "2"
+{
+  "_id" : ObjectId("5705842e7b71b22718e9b402"),
+  "description" : "What if you take a car and inject it with steroids? You get a muscle car. Bigger, badder, faster, these are American football players to European “football” players.  Open only to American cars built between 1964-1972.",
+  "cat_id" : NumberInt(2),
+  "title" : "BEST MUSCLE CAR"
 }
-{ 
-    "_id" : ObjectId("5705842e7b71b22718e9b403"), 
-    "name" : "BEST MOTORCYCLE", 
-    "description" : "Open only to vehicles with less than four wheels and no seat belts. No Cages.  This is for the chopper, hog, steed, underbone, scoot, sled, soft tail, thumper, or Iron Horse that best brings out your bad side.", 
-    "cat_id" : "3"
+{
+  "_id" : ObjectId("5705842e7b71b22718e9b403"),
+  "description" : "Open only to vehicles with less than four wheels and no seat belts. No Cages.  This is for the chopper, hog, steed, underbone, scoot, sled, soft tail, thumper, or Iron Horse that best brings out your bad side.",
+  "cat_id" : NumberInt(3),
+  "title" : "BEST MOTORCYCLE"
 }
-{ 
-    "_id" : ObjectId("5705842e7b71b22718e9b404"), 
-    "name" : "BEST RACECAR", 
-    "description" : "At the race track, it’s easy to spot the best racecar—it’s the one that won. In this case, it’s the vehicle that most looks like a winner, standing still. Open only to specialized vehicles purpose-built for racing.", 
-    "cat_id" : "4"
+{
+  "_id" : ObjectId("5705842e7b71b22718e9b404"),
+  "description" : "At the race track, it’s easy to spot the best racecar—it’s the one that won. In this case, it’s the vehicle that most looks like a winner, standing still. Open only to specialized vehicles purpose-built for racing.",
+  "cat_id" : NumberInt(4),
+  "title" : "BEST RACECAR"
 }
-{ 
-    "_id" : ObjectId("5705842e7b71b22718e9b405"), 
-    "name" : "MOST LIKELY TO GET A TICKET", 
-    "description" : "Whether it’s the sporty look, obscene horsepower, or ear-splitting exhaust note, this vehicle always catches the eye of law enforcement.  Traffic cops always want to spend quality time getting to know this bad-boy. All vehicles are eligible.", 
-    "cat_id" : "5"
+{
+  "_id" : ObjectId("5705842e7b71b22718e9b405"),
+  "description" : "Whether it’s the sporty look, obscene horsepower, or ear-splitting exhaust note, this vehicle always catches the eye of law enforcement.  Traffic cops always want to spend quality time getting to know this bad-boy. All vehicles are eligible.",
+  "cat_id" : NumberInt(5),
+  "title" : "MOST LIKELY TO GET A TICKET"
 }
-{ 
-    "_id" : ObjectId("5705842e7b71b22718e9b406"), 
-    "name" : "BEST PRE-1940’s", 
-    "description" : "A very broad category to be sure, this era covers the rapid evolution of the car from its origins in the late-19th century (the “horseless carriage”), to hundreds of different manufacturers experimenting with innovations to make cars more reliable, faster, safer and more comfortable, to the standardization of many features we take for granted on cars today—front-mounted engines, closed tops, tempered glass, fenders, front-wheel drive, speeding tickets.  This category has the most diverse entries, so vote for the car that best represents the spirit of adventure synonymous with the age.", 
-    "cat_id" : "6"
+{
+  "_id" : ObjectId("5705842e7b71b22718e9b406"),
+  "description" : "A very broad category to be sure, this era covers the rapid evolution of the car from its origins in the late-19th century (the “horseless carriage”), to hundreds of different manufacturers experimenting with innovations to make cars more reliable, faster, safer and more comfortable, to the standardization of many features we take for granted on cars today—front-mounted engines, closed tops, tempered glass, fenders, front-wheel drive, speeding tickets.  This category has the most diverse entries, so vote for the car that best represents the spirit of adventure synonymous with the age.",
+  "cat_id" : NumberInt(6),
+  "title" : "BEST PRE-1940’s"
 }
-{ 
-    "_id" : ObjectId("5705842e7b71b22718e9b407"), 
-    "name" : "BEST 1940’s", 
-    "description" : "In the early 1940’s, cars were still considered a luxury rather than a necessity, and most production cars catered to the luxury market. However, worldwide car production was suspended for the most part during World War II so that production facilities could be reallocated to make military vehicles.  In the U.S., production resumed in 1946, and the post-war boom resulted in more cars available for everyone.  Innovations of the time include power windows, the ignition key, and turn signals (still not used by many drivers today). Vote for the car that best represents “The Greatest Generation.”", 
-    "cat_id" : "7"
+{
+  "_id" : ObjectId("5705842e7b71b22718e9b407"),
+  "description" : "In the early 1940’s, cars were still considered a luxury rather than a necessity, and most production cars catered to the luxury market. However, worldwide car production was suspended for the most part during World War II so that production facilities could be reallocated to make military vehicles.  In the U.S., production resumed in 1946, and the post-war boom resulted in more cars available for everyone.  Innovations of the time include power windows, the ignition key, and turn signals (still not used by many drivers today). Vote for the car that best represents “The Greatest Generation.”",
+  "cat_id" : NumberInt(7),
+  "title" : "BEST 1940’s"
 }
-{ 
-    "_id" : ObjectId("5705842e7b71b22718e9b408"), 
-    "name" : "BEST 1950’s", 
-    "description" : "Following the austerity of the Great Depression and sacrifice of WWII, American’s were ready for a change, and the automobile industry obliged.  Cheaper, bigger, faster, more luxurious cars became available, and the designs of the decade reflected the optimism of the time.  Vote for the car that best represents Happy Days.", 
-    "cat_id" : "8"
+{
+  "_id" : ObjectId("5705842e7b71b22718e9b408"),
+  "description" : "Following the austerity of the Great Depression and sacrifice of WWII, American’s were ready for a change, and the automobile industry obliged.  Cheaper, bigger, faster, more luxurious cars became available, and the designs of the decade reflected the optimism of the time.  Vote for the car that best represents Happy Days.",
+  "cat_id" : NumberInt(8),
+  "title" : "BEST 1950’s"
 }
-{ 
-    "_id" : ObjectId("5705842e7b71b22718e9b409"), 
-    "name" : "BEST 1960’s", 
-    "description" : "The Times They Are a-Changin’. The 1960’s saw the full recovery of the European and Asian car companies, who brought small, affordable models to the American market.  The Big 3 American manufacturers responded with pony and muscle cars like the Mustang and Camaro, along with more luxurious offerings from the likes of Cadillac and Lincoln.  America probably changed more during this decade than any other—and so did the cars, so selecting the best example will be challenging.  But don’t pick a Challenger, because it didn’t debut until 1970…", 
-    "cat_id" : "9"
+{
+  "_id" : ObjectId("5705842e7b71b22718e9b409"),
+  "description" : "The Times They Are a-Changin’. The 1960’s saw the full recovery of the European and Asian car companies, who brought small, affordable models to the American market.  The Big 3 American manufacturers responded with pony and muscle cars like the Mustang and Camaro, along with more luxurious offerings from the likes of Cadillac and Lincoln.  America probably changed more during this decade than any other—and so did the cars, so selecting the best example will be challenging.  But don’t pick a Challenger, because it didn’t debut until 1970…",
+  "cat_id" : NumberInt(9),
+  "title" : "BEST 1960’s"
 }
-{ 
-    "_id" : ObjectId("5705842e7b71b22718e9b40a"), 
-    "name" : "BEST 1970’s", 
-    "description" : "For some people, memories of the 1970’s are hazy.  Luckily, memories are clearer about such stand-out cars such as the Datsun 240Z, Porsche 911 Turbo, Lamborghini Countach, and the Dodge Challenger.  Of course, maybe hazy memories aren’t such a bad thing considering cars like the Mustang II, AMC Pacer, and Renault Le Car.  But none of this mattered when the OPEC Oil embargo almost forced everyone to ride busses and trains again. Almost.  Vote for the car that is most “Dyn-O-Mite!”", 
-    "cat_id" : "10"
+{
+  "_id" : ObjectId("5705842e7b71b22718e9b40a"),
+  "description" : "For some people, memories of the 1970’s are hazy.  Luckily, memories are clearer about such stand-out cars such as the Datsun 240Z, Porsche 911 Turbo, Lamborghini Countach, and the Dodge Challenger.  Of course, maybe hazy memories aren’t such a bad thing considering cars like the Mustang II, AMC Pacer, and Renault Le Car.  But none of this mattered when the OPEC Oil embargo almost forced everyone to ride busses and trains again. Almost.  Vote for the car that is most “Dyn-O-Mite!”",
+  "cat_id" : NumberInt(10),
+  "title" : "BEST 1970’s"
 }
-{ 
-    "_id" : ObjectId("5705842e7b71b22718e9b40b"), 
-    "name" : "BEST 1980’s…and BEYOND", 
-    "description" : "The 1980s ushered in a new era, as sophisticated electronics and on-board computers made the cars of the past 30 years an evolutionary leap over their forefathers from the previous 100 years. Electronic fuel injection, anti-lock brakes, safety airbags, on-board diagnostics and hybrid fuel systems became the norm for most modern cars.  Memorable cars of this era include the BMW M3, Delorean DMC-12, Dodge Viper, Acura NSX, Mini Cooper and the Chrysler Minivan. Forgettable cars of the time include the Cadillac Cimarron, Yugo, Pontiac Aztek, and Chrysler Minivan.  Vote for the car in this category that you would have most liked to drive to the US Festival, Lollapalozza, or Coachella.", 
-    "cat_id" : "11"
+{
+  "_id" : ObjectId("5705842e7b71b22718e9b40b"),
+  "description" : "The 1980s ushered in a new era, as sophisticated electronics and on-board computers made the cars of the past 30 years an evolutionary leap over their forefathers from the previous 100 years. Electronic fuel injection, anti-lock brakes, safety airbags, on-board diagnostics and hybrid fuel systems became the norm for most modern cars.  Memorable cars of this era include the BMW M3, Delorean DMC-12, Dodge Viper, Acura NSX, Mini Cooper and the Chrysler Minivan. Forgettable cars of the time include the Cadillac Cimarron, Yugo, Pontiac Aztek, and Chrysler Minivan.  Vote for the car in this category that you would have most liked to drive to the US Festival, Lollapalozza, or Coachella.",
+  "cat_id" : NumberInt(11),
+  "title" : "BEST 1980’s…and BEYOND"
 }

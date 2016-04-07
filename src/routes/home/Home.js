@@ -21,7 +21,7 @@ function Home({ categories }) {
             <a href="" className={s.categoryTitle}>{item.title}</a>
               <span
                 className={s.categoryDesc}
-                dangerouslySetInnerHTML={{ __html: item.contentSnippet }}
+                dangerouslySetInnerHTML={{ __html: item.description }}
               />
           </li>
         ))}
@@ -31,10 +31,10 @@ function Home({ categories }) {
 }
 
 Home.propTypes = {
-  category: PropTypes.arrayOf(PropTypes.shape({
+  categories: PropTypes.arrayOf(PropTypes.shape({
+    cat_id: PropTypes.number.isRequired,
     title: PropTypes.string.isRequired,
-    link: PropTypes.string.isRequired,
-    contentSnippet: PropTypes.string
+    description: PropTypes.string.isRequired
   })).isRequired
 };
 

@@ -10,6 +10,7 @@
 import {
   GraphQLObjectType as ObjectType,
   GraphQLString as StringType,
+  GraphQLInt as IntType,
   GraphQLNonNull as NonNull,
 } from 'graphql';
 
@@ -17,7 +18,7 @@ const CategoryType = new ObjectType({
   name: 'Category',
   fields: {
     id: { type: new NonNull(StringType) },
-    cat_id: { type: new NonNull(StringType) },
+    cat_id: { type: new NonNull(IntType) },
     title: { type: new NonNull(StringType) },
     description: { type: new NonNull(StringType) }
   }

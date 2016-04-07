@@ -13,8 +13,8 @@ import fetch from '../../core/fetch';
 
 export const path = '/';
 export const action = async (state) => {
-  const response = await fetch('/graphql?query={categories{id,title,description}}');
+  const response = await fetch('/graphql?query={categories{cat_id, title, description}}');
   const { data } = await response.json();
   state.context.onSetTitle('Employee Car Show');
-  return <Home news={data.categories} />;
+  return <Home categories={data.categories} />;
 };
