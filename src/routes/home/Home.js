@@ -14,7 +14,7 @@ import Card from '../../components/Card';
 
 function Home({ categories }) {
   return (
-    <div>
+    <div className={s.root}>
       {categories.map((item, index) => (
         <div key={index}>
           <Card category={item}/>

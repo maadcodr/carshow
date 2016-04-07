@@ -9,4 +9,8 @@
 
 @import '../../components/variables.scss';
 
-
+.root {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}

@@ -15,8 +15,8 @@ function Card({ category }) {
   return (
     <div className={s.root}>
       <div className={s.container}>
-        <div className={s.categoryTitle}>{category.title}</div>
-        <div className={s.categoryDesc} dangerouslySetInnerHTML={{ __html: category.description }}></div>
+        <div className={s.title}>{category.title}</div>
+        <div className={s.description} dangerouslySetInnerHTML={{ __html: category.description }}></div>
       </div>
     </div>
   );

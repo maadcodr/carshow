@@ -12,10 +12,25 @@
 $brand-color: #61dafb;
 
 .root {
-  color: #fff;
+  color: #555;
+  margin: 20px;
+  background-color: #fff;
+  padding: 20px;
+  position: relative;
+  width: 280px;
+  flex: 0 1 auto;
 }
 
 .container {
 
 }
 
+.title {
+  color: #333;
+  font-size: 18px;
+}
+
+.description {
+  font-size: 14px;
+  margin: 20px 0;
+}
