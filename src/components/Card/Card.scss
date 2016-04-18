@@ -13,12 +13,16 @@ $brand-color: #61dafb;
 
 .root {
   color: #555;
-  margin: 20px;
+  margin: 20px 20px 0;
   background-color: #fff;
   padding: 20px;
   position: relative;
-  width: 280px;
+  width: 240px;
   flex: 0 1 auto;
+
+  &:last-child {
+    margin-bottom: 20px;
+  }
 }
 
 .container {
@@ -28,6 +32,7 @@ $brand-color: #61dafb;
 .title {
   color: #333;
   font-size: 18px;
+  line-height: 18px;
 }
 
 .description {

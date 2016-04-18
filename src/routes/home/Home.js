@@ -16,9 +16,7 @@ function Home({ categories }) {
   return (
     <div className={s.root}>
       {categories.map((item, index) => (
-        <div key={index}>
-          <Card category={item}/>
-        </div>
+        <Card key={index} category={item}/>
       ))}
     </div>
   );

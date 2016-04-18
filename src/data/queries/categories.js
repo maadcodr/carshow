@@ -9,6 +9,7 @@
 
 import { GraphQLList as List } from 'graphql';
 import CategoryType from '../types/CategoryType';
+import Promise from 'bluebird';
 import mongoose from 'mongoose';
 
 mongoose.connect('mongodb://erik:delorean@localhost/carshow16');

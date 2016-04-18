@@ -12,16 +12,14 @@ import { join } from 'path';
 import Promise from 'bluebird';
 import jade from 'jade';
 import fm from 'front-matter';
-import MarkdownIt from 'markdown-it';
 
 import {
   GraphQLString as StringType,
+  GraphQLInt as IntType,
   GraphQLNonNull as NonNull,
 } from 'graphql';
 
-import ContentType from '../types/ContentType';
-
-const md = new MarkdownIt();
+import EntryType from '../types/EntryType';
 
 // A folder with Jade/Markdown/HTML content pages
 const CONTENT_DIR = join(__dirname, './content');

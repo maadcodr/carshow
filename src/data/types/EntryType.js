@@ -9,18 +9,16 @@
 
 import {
   GraphQLObjectType as ObjectType,
-  GraphQLString as StringType,
+  GraphQLInt as IntType,
   GraphQLNonNull as NonNull,
 } from 'graphql';
 
-const ContentType = new ObjectType({
-  name: 'Content',
+const EntryType = new ObjectType({
+  name: 'Entry',
   fields: {
-    path: { type: new NonNull(StringType) },
-    title: { type: new NonNull(StringType) },
-    content: { type: new NonNull(StringType) },
-    component: { type: new NonNull(StringType) },
-  },
+    cat_id: { type: new NonNull(IntType) },
+    car_id: { type: new NonNull(IntType) }
+  }
 });
 
-export default ContentType;
+export default EntryType;

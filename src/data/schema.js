@@ -13,7 +13,7 @@ import {
 } from 'graphql';
 
 import me from './queries/me';
-import content from './queries/content';
+import content from './queries/entry';
 import categories from './queries/categories';
 
 const schema = new Schema({
